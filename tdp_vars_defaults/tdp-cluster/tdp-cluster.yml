@@ -196,7 +196,7 @@ exporter_hdfs_httpfs_http_port: 18122
 # (no 'T' as date/time separator) we specify it here.
 tdp_date_iso8601_with_tz: "%d{yyyy-MM-dd'T'HH:mm:ss.SSSXXX}"
 tdp_log_layout_pattern: '{{ tdp_date_iso8601_with_tz }} - %-5p [%t:%C{1}@%L] - %m%n'
-enable_ranger_audit_log4j: true
+enable_ranger_audit_log4j: false 
 tdp_auditlog_layout_pattern: '%m%n'
 
 hadoop_log_dir: /var/log/hadoop

@@ -155,6 +155,7 @@ ranger_usersync_heapsize: 1024m
 ranger_solr_heapsize: 1024m
 
 ranger_solr_datadir: "{{ solr_root_dir }}/{{ solr_release }}/server/solr"
+solr_logdir: "/var/log/solr"
 
 # jmx exporter configuration files
 ranger_jmx_exporter_conf_file: "ranger-jmx-exporter.yml"
